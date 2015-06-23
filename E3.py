@@ -7,9 +7,11 @@
 n = 1
 num = 600851475143
 prime = 1
-while n < num
-  if num%n = 0:
+
+while n < num:
+  if num%n == 0:
     prime = n
+    print (prime)
   n += 1
 print (prime)
 

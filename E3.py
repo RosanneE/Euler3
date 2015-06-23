@@ -6,13 +6,14 @@
 
 n = 1
 num = 600851475143
-prime = 1
+prime = [1]
 
 while n < num:
   
   if num%n == 0:
-    prime = n
-    print (prime)
+    #check prime list to see if any number in it divides that number
+    prime.append(n)
+    print (list)
     
   n += 1
   

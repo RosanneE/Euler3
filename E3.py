@@ -4,11 +4,12 @@
 
 # http://codepad.org/TM3xGIQq
 
-n = 1
 num = 600851475143
-prime = 0
+n = num - 1
 
 while prime = 0:
+  if num % n = 0:
+    
   
 
 #while n < num:

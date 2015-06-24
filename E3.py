@@ -6,9 +6,10 @@
 
 n = 1
 num = 600851475143
-prime = [1]
+prime = 0
 
-
+while prime = 0:
+  
 
 #while n < num:
   

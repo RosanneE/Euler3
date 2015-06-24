@@ -8,13 +8,15 @@ n = 1
 num = 600851475143
 prime = [1]
 
-while n < num:
+
+
+#while n < num:
   
-  if num%n == 0:
+ # if num%n == 0:
     #check prime list to see if any number in it divides that number
-    prime.append(n)
-    print (list)
+  #  prime.append(n)
+   # print (list)
     
-  n += 1
+  #n += 1
   
-print (prime)
+#print (prime)

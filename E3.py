@@ -6,9 +6,12 @@
 
 num = 600851475143
 n = num - 1
+count = 2
 
 while prime = 0:
   if num % n = 0:
+    if n % count!= 0:
+      count += count
     
   
 

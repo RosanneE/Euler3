@@ -7,13 +7,27 @@
 num = 600851475143
 n = num - 1
 count = 2
+prime = 0
 
-while prime = 0:
-  if num % n = 0:
-    if n % count!= 0:
-      count += count
-    
+while prime == 0:
   
+ if num % n == 0:
+   
+   while count <= n:
+     
+    if count == n:
+        pime = n
+    if n % count ==0:
+      count = n + 1
+      n -= n
+    else:
+      count += count
+      
+   count = 2
+   
+  else:
+      n -= n 
+print prime
 
 #while n < num:
   

@@ -10,24 +10,22 @@ count = 2
 prime = 0
 
 while prime == 0:
-  
+
  if num % n == 0:
-   
    while count <= n:
-     
     if count == n:
         pime = n
     if n % count ==0:
       count = n + 1
       n -= n
-    else:
+    if n% count != 0:
       count += count
-      
-   count = 2
-   
-  else:
-      n -= n 
-print prime
+    count = 2
+   if count == n:
+      n -= n
+  #if
+  #    n -= n
+print (prime)  
 
 #while n < num:
   

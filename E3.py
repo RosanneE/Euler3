@@ -15,10 +15,13 @@ while prime ==0:
  # if the number we are currently evaluating divides into the original number, it may be a prime factor
  if num % n == 0:
   
-  #starting at 2, checks to see if the number is prime
-  while count <= n
+  #reset count
+  count == 2
   
-  #if the number divides into num and is prime, it is le largest prime number
+  #starting at 2, checks to see if the number is prime
+  while count <= n:
+  
+  #if the number divides into num and is prime, it is the largest prime number
    if count == n:
     prime = n
    
@@ -27,13 +30,14 @@ while prime ==0:
     
     #means the number is not prime, moves to check the next number
     if n % count == 0:
-     
-     #
+     #move to the next number
+     count = num + 1
+     num -= num
     
     #not divisible by the counter, check next counter number
-    elif:
+    else:
      count += count
-    
+   
   
  
  #is not a factor, check next number

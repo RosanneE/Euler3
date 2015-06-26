@@ -31,18 +31,16 @@ while prime ==0:
     #means the number is not prime, moves to check the next number
     if n % count == 0:
      #move to the next number
-     count = num + 1
+     count = num
      num -= num
     
     #not divisible by the counter, check next counter number
     else:
      count += count
-   
-  
  
  #is not a factor, check next number
  else:
-  num -= num
+  n -= n
  
 print(prime)
 

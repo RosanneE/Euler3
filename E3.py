@@ -9,8 +9,23 @@ n = num - 1
 count = 2
 prime = 0
 
+while prime ==0:
+ 
+ if num % n == 0:
+  
+  while count <= n
+   if count == n:
+    prime = n
+   
+   elif count <n:
+   # if n % count == 0
+ 
+ else:
+  num -= num
+ 
+print(prime)
 
-while prime == 0:
+"""while prime == 0:
 
  if num % n == 0:
   
@@ -28,7 +43,7 @@ while prime == 0:
  if num % n != 0:
       n -= n
       
-print (prime)   
+print (prime)   """
 
 #while n < num:
   

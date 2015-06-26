@@ -9,17 +9,34 @@ n = num - 1
 count = 2
 prime = 0
 
+#Ends when prime is given a non zero value
 while prime ==0:
  
+ # if the number we are currently evaluating divides into the original number, it may be a prime factor
  if num % n == 0:
   
+  #starting at 2, checks to see if the number is prime
   while count <= n
+  
+  #if the number divides into num and is prime, it is le largest prime number
    if count == n:
     prime = n
    
+   #checks to see if the number is divisable by smaller numbers
    elif count <n:
-   # if n % count == 0
+    
+    #means the number is not prime, moves to check the next number
+    if n % count == 0:
+     
+     #
+    
+    #not divisible by the counter, check next counter number
+    elif:
+     count += count
+    
+  
  
+ #is not a factor, check next number
  else:
   num -= num
  
